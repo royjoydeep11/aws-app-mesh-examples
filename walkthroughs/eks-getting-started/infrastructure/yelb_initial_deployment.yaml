@@ -75,7 +75,7 @@ metadata:
   namespace: yelb
   name: yelb-ui
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: yelb-ui
@@ -121,7 +121,7 @@ metadata:
   namespace: yelb
   name: yelb-db
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: yelb-db
