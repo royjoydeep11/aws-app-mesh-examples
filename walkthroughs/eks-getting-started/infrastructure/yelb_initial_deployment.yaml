@@ -134,7 +134,7 @@ spec:
     spec:
       containers:
         - name: yelb-db
-          image: mreferre/yelb-db:0.5
+          image: 535465148648.dkr.ecr.us-west-2.amazonaws.com/postgres:latest
           ports:
             - containerPort: 5432
 ---
