@@ -157,6 +157,6 @@ spec:
     spec:
       containers:
         - name: yelb-appserver
-          image: 535465148648.dkr.ecr.us-west-2.amazonaws.com/royjoydeep1-appserver-v1:latest
+          image: mreferre/yelb-appserver:0.5
           ports:
             - containerPort: 4567
