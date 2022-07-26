@@ -134,7 +134,7 @@ spec:
     spec:
       containers:
         - name: yelb-db
-          image:  535465148648.dkr.ecr.us-west-2.amazonaws.com/royjoydeep1-db:latest
+          image:  mreferre/yelb-db:0.5
           ports:
             - containerPort: 5432
 ---
